@@ -1,0 +1,41 @@
+body {
+    background-color: linen;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav li{
+    display: inline;
+}
+
+section {
+    
+}
+
+.main_content{
+    display: flex;
+}
+img {
+    width: 100%;
+}
+main{
+    flex: 3;
+}
+aside {
+    flex: 1;
+}
+
+.friend-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.friend-list section {
+    max-width: 200px;
+    /* margin: 1em 2em; */
+}
